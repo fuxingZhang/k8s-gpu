@@ -64,7 +64,7 @@ function plugin::generate_img() {
       --build-arg base_img=${base_img} \
       --platform=linux/arm64 \
       -t "gpu-manager-arm64:${version}" \
-      -o type=docker,dest=gpu-manager-arm64_${version}.tar.gz .
+      -o type=docker,dest=../../gpu-manager-arm64_${version}.tar.gz .
   )
 }
 
